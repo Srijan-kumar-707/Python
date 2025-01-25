@@ -1,0 +1,10 @@
+dict = {"key" : "value", 9 : 90, "pi" : 3.14, "circle" : "2pi*r"}
+print(dict.keys())
+print(list(dict.keys()))
+print(dict.values())
+print(list(dict.values()))
+print(len(dict))
+print(dict.items())
+print(dict.get(9))
+dict.update({"city" : "Mumbai meri jaan"})
+print(dict)

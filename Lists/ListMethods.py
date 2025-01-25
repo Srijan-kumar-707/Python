@@ -1,0 +1,10 @@
+list = [5,4,2,3,1]
+print(list)
+list.append(6)
+print(list)
+list.sort()
+print(list)
+list.sort(reverse=True)
+print(list)
+list.reverse()
+print(list)
